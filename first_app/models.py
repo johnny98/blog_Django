@@ -20,6 +20,14 @@ from django.db import models
 #
 #     def __str__(self):
 #         return str(self.date)
+# new line 
+# added
+# try:
+#     pass
+# except expression as identifier:
+#     pass
+# else:
+#     pass
 
 class User(models.Model):
     last_name = models.CharField(max_length=200)
